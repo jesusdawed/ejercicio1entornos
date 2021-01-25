@@ -8,10 +8,8 @@ public class Calculadora {
 		this.numero1=n1;
 		this.numero2=n2;
 	}
-	
 	public int multiplicar() {
 		return this.numero1*this.numero2;
 	}
 }
-
 
