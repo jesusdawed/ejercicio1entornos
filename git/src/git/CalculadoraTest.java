@@ -62,8 +62,9 @@ public class CalculadoraTest {
 		double esperado = 3;
 		assertEquals(esperado,resultado,0.01);
 	}
+	public void testSuma() {
+		assertEquals(11,c.Suma(6, 5));
+	}
 
 }
-
-
 
