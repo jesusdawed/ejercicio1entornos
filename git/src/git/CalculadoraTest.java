@@ -24,7 +24,10 @@ public class CalculadoraTest {
 	public void testMultiplicar() {
 		assertEquals(15,c.multiplicar());
 	}
-
+	@Test
+	public void resta() {
+		assertEquals(2,c.resta(5,3));
+	}
 	@Test
 	public void testGetNumero1() {
 		assertEquals(5,c.getNumero1());
@@ -61,4 +64,6 @@ public class CalculadoraTest {
 	}
 
 }
+
+
 
